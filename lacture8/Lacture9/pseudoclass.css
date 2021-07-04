@@ -1,0 +1,36 @@
+a:link{
+
+color: red;
+
+
+
+}
+a:visited {
+
+
+    color: green;
+}
+
+a:hover{
+
+
+    color:blue;
+}
+a:active{
+
+    color: blueviolet;
+}
+
+ul ul{
+
+
+    display: none;
+}
+
+
+li:hover > ul{
+
+display: block;
+color: green;
+
+}
