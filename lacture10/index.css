@@ -1,0 +1,50 @@
+li li {
+    visibility: hidden;
+
+}
+span{
+background-color:red;
+  display:block;
+
+}
+
+
+
+
+}
+
+.box{
+
+
+float:left;
+
+}
+
+
+body{
+
+
+
+    background-image: url(download.png);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+
+
+
+
+}
+#div1{
+
+width: 600px;
+height:200px;
+background-color: red;
+
+}
+#div2{
+
+    max-width:600px;
+    height:200px;
+    background-color: blue;
+    
+    }
