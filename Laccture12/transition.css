@@ -1,0 +1,21 @@
+div{
+
+
+    height:100px;
+    width: 100px;
+    background-color: red;
+    margin: 20px;
+}
+#d1:hover + #d2{
+
+
+background-color:blue;
+
+height:500px;
+transition: background-color 3s, width 3s, height 3s;
+
+transition-delay: 10s;
+
+
+}
+

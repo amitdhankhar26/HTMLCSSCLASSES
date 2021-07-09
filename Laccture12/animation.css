@@ -1,0 +1,44 @@
+div{
+
+margin: 20px;
+background-color:blue;
+
+height:100px;
+width:100px;
+}
+
+@keyframes slide{
+
+0% { margin-left: 20px;
+
+
+}
+50%{ margin-left: 250px;
+ height: 200px;
+background-color:yellow;
+
+}
+100%{
+    background-color:red;
+   height:100px;
+    margin-left: 500px;
+}
+
+
+
+}
+
+#d1:hover +#d2{
+
+
+animation-name: slide;
+animation-duration:10s;
+animation-iteration-count:10;
+
+
+}
+
+
+
+
+

@@ -7,12 +7,14 @@ margin: 10px;
 padding: 10px;
 
 }
+
 #d1{
 
+position: sticky;
 
-
-    position:sticky;
-    top: 100px;
+top: 10px;
+left: 10px;
+    
     
 
 
