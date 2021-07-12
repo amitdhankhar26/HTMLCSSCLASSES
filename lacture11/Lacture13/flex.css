@@ -1,0 +1,33 @@
+.container{
+
+
+    background-color:red;
+    display:flex;
+    height: 500px;
+     border: 5px solid;
+     flex-wrap: nowrap;
+
+
+
+
+
+}
+
+.box{
+
+
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    margin: 10px;
+}
+#d1{
+
+    flex-grow: 1;
+    flex-shrink: 0;
+
+}
+#d4{
+
+    flex-grow: -1;
+}
